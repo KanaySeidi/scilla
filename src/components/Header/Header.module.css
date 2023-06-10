@@ -1,0 +1,88 @@
+.container{
+    display: grid;
+    grid-template-columns: 20% 40% 25% 10%;
+    align-items: center;
+}
+
+.date{
+    margin-left: 55px;
+    color: #899CB1;
+}
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+.gfield{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 156px;
+    height: 10px;
+    border-radius: 12px;
+    border: 1px solid green;
+    background-color: #DEE6F5;
+    margin-top: 10px;
+}
+.yfield{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 156px;
+    height: 10px;
+    border-radius: 12px;
+    border: 1px solid #FFB800;
+    background-color: #DEE6F5;
+    margin-top: 10px;
+
+}
+.rfield{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 156px;
+    height: 10px;
+    border-radius: 12px;
+    border: 1px solid red;
+    background-color: #DEE6F5;
+    margin-top: 10px;
+
+}
+
+.one{
+    background-color: green;
+}
+.two{
+    background-color: #FFB800;
+}
+.three{
+    background-color: red;
+}
+
+
+.green{
+    color: green;
+}
+.yellow{
+    color: #FFB800;
+}
+.red{
+    color: red;
+}
+
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+
+.user{
+    font-size: 15px;
+    font-weight: 500;
+    color: #899CB1;
+}
