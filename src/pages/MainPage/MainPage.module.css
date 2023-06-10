@@ -1,6 +1,8 @@
 .section {
     display: grid;
     grid-template-columns: 15% 85%;
+    background-color: #DEE6F5;
+
 }
 
 .sidebar{
@@ -9,11 +11,9 @@
     background-color: #091336;
 }
 
-.container{
-    background-color: green;
-}
+
 
 .header{
     height: 3.5em;
-    background-color: blue;
+    background-color: #ffff;
 }
