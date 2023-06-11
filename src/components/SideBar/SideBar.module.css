@@ -1,7 +1,6 @@
 .conatiner{
-    background-color: red;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
 }
 
 .logo{
@@ -15,7 +14,6 @@
 .leftBorder{
     width: 2px;
     height: 100%;
-    /* color: red; */
     border: 3px solid #091336;
     margin-right: 5px;
     margin-left: -10px;
