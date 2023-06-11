@@ -15,7 +15,7 @@ const postDataSlice = createSlice({
     },
     [postData.fulfilled]: (state, action) => {
       state.status = "active";
-      state.data = action.payload;
+      state.data = action.payload.data.results;
     },
     [postData.rejected]: (state, action) => {
       state.status = "active";

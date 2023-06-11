@@ -13,6 +13,7 @@ import orders from "../../assets/icon/orders.png";
 import people from "../../assets/icon/people.png";
 import performers from "../../assets/icon/performers.png";
 import setting from "../../assets/icon/settings.png";
+import { Link } from "react-router-dom";
 
 const SideBar = () => {
   return (
@@ -20,65 +21,85 @@ const SideBar = () => {
       <div className={side.container}>
         <img className={side.logo} src={logo} alt="Scilla logo" />
         <ul>
-          <li>
-            <div className={side.leftBorder}></div>
-            <img src={total} alt="" />
-            <p>Итоги</p>
-          </li>
-          <li>
-            <div className={side.leftBorder}></div>
+          <Link to="/">
+            <li>
+              <div className={side.leftBorder}></div>
+              <img src={total} alt="" />
+              <p>Итоги</p>
+            </li>
+          </Link>
+          <Link to="/">
+            <li>
+              <div className={side.leftBorder}></div>
 
-            <img src={orders} alt="" />
-            <p>Заказы</p>
-          </li>
-          <li>
-            <div className={side.leftBorder}></div>
+              <img src={orders} alt="" />
+              <p>Заказы</p>
+            </li>
+          </Link>
+          <Link to="/">
+            <li>
+              <div className={side.leftBorder}></div>
 
-            <img src={outline} alt="" />
-            <p>Сообщение</p>
-          </li>
-          <li>
-            <div className={side.leftBorder}></div>
+              <img src={outline} alt="" />
+              <p>Сообщение</p>
+            </li>
+          </Link>
+          <Link to="/calls">
+            <li>
+              <div className={side.leftBorder}></div>
 
-            <img src={calls} alt="" />
-            <p>Звонки</p>
-          </li>
-          <li>
-            <div className={side.leftBorder}></div>
+              <img src={calls} alt="" />
+              <p>Звонки</p>
+            </li>
+          </Link>
+          <Link to="/">
+            <li>
+              <div className={side.leftBorder}></div>
 
-            <img src={people} alt="" />
-            <p>Контрагенты</p>
-          </li>
-          <li>
-            <div className={side.leftBorder}></div>
+              <img src={people} alt="" />
+              <p>Контрагенты</p>
+            </li>
+          </Link>
+          <Link to="/">
+            <li>
+              <div className={side.leftBorder}></div>
 
-            <img src={documents} alt="" />
-            <p>Документы</p>
-          </li>
-          <li>
-            <div className={side.leftBorder}></div>
+              <img src={documents} alt="" />
+              <p>Документы</p>
+            </li>
+          </Link>
+          <Link to="/">
+            <li>
+              <div className={side.leftBorder}></div>
 
-            <img src={performers} alt="" />
-            <p>Исполнители</p>
-          </li>
-          <li>
-            <div className={side.leftBorder}></div>
+              <img src={performers} alt="" />
+              <p>Исполнители</p>
+            </li>
+          </Link>
+          <Link to="/">
+            <li>
+              <div className={side.leftBorder}></div>
 
-            <img src={briefcase} alt="" />
-            <p>Отчеты</p>
-          </li>
-          <li>
-            <div className={side.leftBorder}></div>
+              <img src={briefcase} alt="" />
+              <p>Отчеты</p>
+            </li>
+          </Link>
+          <Link to="/">
+            <li>
+              <div className={side.leftBorder}></div>
 
-            <img src={db} alt="" />
-            <p>База знаний</p>
-          </li>
-          <li>
-            <div className={side.leftBorder}></div>
+              <img src={db} alt="" />
+              <p>База знаний</p>
+            </li>
+          </Link>
+          <Link to="/">
+            <li>
+              <div className={side.leftBorder}></div>
 
-            <img src={setting} alt="" />
-            <p>Настройки</p>
-          </li>
+              <img src={setting} alt="" />
+              <p>Настройки</p>
+            </li>
+          </Link>
         </ul>
         <div className={side.order}>
           <button>
