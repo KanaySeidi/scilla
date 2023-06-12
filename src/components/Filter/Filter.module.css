@@ -1,0 +1,24 @@
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 200px;
+
+}
+
+.box input{
+    width: 200px;
+    height: 60px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+
+.box button{
+    width: 200px;
+    height: 60px;
+}

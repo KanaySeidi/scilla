@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 15% 85%;
     background-color: #DEE6F5;
-
 }
 
 .sidebar{
@@ -11,9 +10,21 @@
     background-color: #091336;
 }
 
-
-
 .header{
     height: 3.5em;
     background-color: #ffff;
+}
+
+.filter{
+    width: 80%;
+    margin: 1.5em auto 2.5em;
+    height: 100px;
+}
+
+.table{
+    background-color: #ffff;
+    width: 80%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 5px #E9EDF3;
 }
