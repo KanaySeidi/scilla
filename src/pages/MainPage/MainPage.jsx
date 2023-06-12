@@ -4,6 +4,7 @@ import SideBar from "../../components/SideBar/SideBar";
 import Header from "../../components/Header/Header";
 
 import Table from "../../components/Table/Table";
+import Filter from "../../components/Filter/Filter";
 
 const MainPage = () => {
   return (
@@ -17,7 +18,13 @@ const MainPage = () => {
           <div className={main.header}>
             <Header />
           </div>
-          <Table />
+
+          <div className={main.filter}>
+            <Filter />
+          </div>
+          <div className={main.table}>
+            <Table />
+          </div>
         </div>
       </div>
     </div>
